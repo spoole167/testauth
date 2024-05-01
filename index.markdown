@@ -9,3 +9,5 @@ Hostname: [{{ site.env.HOSTNAME }}]
 My home: [{{ site.env.HOME }}]
 Test : [{{ site.env.TEST_ME }}]
 
+
+Test2 : [{{ site.env | count  }}]
